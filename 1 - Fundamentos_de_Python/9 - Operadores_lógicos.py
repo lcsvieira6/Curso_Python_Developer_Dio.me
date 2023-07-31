@@ -1,5 +1,5 @@
 """
-São operadores utilizados com conjunto com os operadores de comparação,
+São operadores utilizados em conjunto com os operadores de comparação,
 para montar uma expressão lógica.
 """
 
