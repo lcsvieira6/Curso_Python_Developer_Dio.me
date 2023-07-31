@@ -1,12 +1,10 @@
-'''
-A estrutura condicional permite o desvio de fluxo de controle,
-quando determinadas expresões lógicas são atendidas.
-'''
 
+# A estrutura condicional permite o desvio de fluxo de controle,
+# quando determinadas expresões lógicas são atendidas.
 
 # 1° Exemplo: Utilizando apenas o IF
 
-"""
+
 idade = int(input("Informe a sua idade: "))
 
 
@@ -16,11 +14,10 @@ if idade >= 18:
 if idade < 18:
     print("Você é menor de idade!")
 
-"""
-
 
 # 2° Exemplo: Utilizando if / else
-"""
+
+
 saldo = 2000.0
 saque = float(input("Informe o valor do saque: "))
 
@@ -33,12 +30,12 @@ if saldo >= saque:
 else:
     print('Não é possível continuar a transação.\nLimite indisponível!')
 
-"""
+
 
 
 # 3° Exemplo: Utilizando if / elif / else
 
-"""
+
 saldo = 2000.00
 
 menu =int(input('''
@@ -69,12 +66,12 @@ elif menu == 4:
 
 else:
     print('Opção inválida, tente novamente.') 
-"""
+
 
 
 # 4° Exemplo: Utilizando if aninhado (If dentro de if)
 
-"""
+
 saldo = 2000.00
 
 menu =int(input('''
@@ -110,15 +107,15 @@ elif menu == 4:
 else:
     print('Opção inválida, tente novamente.')
 
-"""
+
 
 
 # 5° Exemplo: Utilizando if ternário
 
-"""
+
 saldo = 2000.00
 saque = float(input("Informe o valor do saque: "))
 
 status = "Sucesso" if saldo >= saque else "Falha"
 print(f'{status} ao realizar o saque!')
-"""
+

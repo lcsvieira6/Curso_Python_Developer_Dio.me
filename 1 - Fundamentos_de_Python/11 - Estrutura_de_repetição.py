@@ -6,7 +6,7 @@ previamente ou determinado através de uma expressão lógica.
 
 # Exemplo 1: Utilizando o comando "FOR".
 
-"""
+
 texto = input("Informe um texto: ")
 
 VOGAIS = "AEIOU"
@@ -14,11 +14,11 @@ VOGAIS = "AEIOU"
 for letra in texto:
     if letra.upper() in VOGAIS:
         print(letra, end="")
-"""
+
 
 # Exemplo 2: Utilizando o comando "FOR / ELSE"
 
-"""
+
 texto = input("Informe um texto: ")
 
 VOGAIS = "AEIOU"
@@ -28,9 +28,8 @@ for letra in texto:
         print(letra, end="")
     
     else:
-        print() #adiciona uma quebra de linha
-        print("Executa no final do laço")
-"""
+        print() # adiciona uma quebra de linha
+
 
 # Exemplo 3: Utilizando o comando "range"
 
@@ -38,28 +37,28 @@ for letra in texto:
 # range(start, stop[, setp]) -> range object
 # list(range(4)) >>> [0, 1, 2, 3, 4]
 
-"""
+
 for numero in range(0, 11):
     print(numero, end=" ")
-"""
+
 
 # Exibindo a tabuada do 5
 
-"""
+
 for numero in range(0, 51, 5):
     print(numero, end=" ")
-"""
+
 
 
 #  Exemplo 5: Utilizando o comando "While"
 
-"""
-O comando while é utilizado para repetir um bloco de código
-várias vezes. Faz sentido usar while quando não sabemos o número
-exato de vezes que nosso bloco de código deve ser executado    
-"""
 
-"""
+# O comando while é utilizado para repetir um bloco de código
+# várias vezes. Faz sentido usar while quando não sabemos o número
+# exato de vezes que nosso bloco de código deve ser executado    
+
+
+
 opcao = 1
 
 while opcao != 3:
@@ -76,11 +75,11 @@ while opcao != 3:
 
     else:
         print("Opção invalida. \nTente novamente!!")
-"""
+
 
 # Exemplo 6: Utilizando o comando "break"
 
-"""
+
 while True:
     numero = int(input("Informe um número: "))
 
@@ -88,14 +87,14 @@ while True:
         break
 
     print(numero)
-"""
+
 
 
 # Exemplo 7: Utilizando o comando "continue"
 
-for numero in range(100):
+# for numero in range(100):
 
-    if numero % 2 == 0:
-        continue
+if numero % 2 == 0:
+    continue
 
     print(numero, end=" ")
